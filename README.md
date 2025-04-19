@@ -6,7 +6,7 @@
   - download zip
   - clone
 ```
-git clone https://github.com/shaunaayscue/new-backend-project
+git clone https://github.com/shaunaayscue/Jokebook.git
 ```
 
 - Open the project in VSCode.
