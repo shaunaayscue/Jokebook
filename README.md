@@ -32,6 +32,8 @@ lameJoke
 funnyJoke
 ```
 
+- Get a random joke by clicking on the "Get a new random joke" button.
+
 - In the search bar, type either
 ```
 lameJoke
