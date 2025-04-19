@@ -18,7 +18,7 @@ app.set("views", __dirname + "/views/ejs");
 app.use("/jokebook", jokeRoutes);
 
 app.get("/", (req, res) => {
-  res.redirect("/jokebook/random");
+  res.redirect("/jokebook");
 });
 
 const PORT = process.env.PORT || 3000;
