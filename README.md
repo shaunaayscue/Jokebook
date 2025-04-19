@@ -21,7 +21,7 @@ nodemon server.js
 ```
 - After starting the server, go to the landing page
 ```
-http://localhost:3000/jokebook
+http://localhost:3000
 ```
 
 - In the search bar, type either
