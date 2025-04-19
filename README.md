@@ -23,3 +23,12 @@ nodemon server.js
 ```
 http://localhost:3000/jokebook
 ```
+
+- In the search bar, type either
+```
+lameJoke
+```
+ or 
+ ```
+funnyJoke
+```
