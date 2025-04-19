@@ -1,0 +1,61 @@
+<%- include('./partials/head') %>
+  <script src="/landing.js" defer></script>
+  </head>
+
+  <body>
+    <h1>
+      <%= title %>
+    </h1>
+    <div class="container">
+      <button id="new-joke-btn">Add New Joke</button>
+      <%- include('./partials/new-joke-form') %>
+
+        <section id="added-jokes-container">
+          <h2>Added Jokes</h2>
+          <ul id="added-jokes-list"></ul>
+        </section>
+    </div>
+
+    <div class="container">
+      <h1>Random Joke</h1>
+      <p id="setup">
+        <%= joke.setup %>
+      </p>
+      <p id="delivery">
+        <%= joke.delivery %>
+      </p>
+      <button id="refresh-btn">Get a new random joke</button>
+    </div>
+
+    <div class="container">
+      <section class="category-list">
+        <div id="category-search">
+          <input type="text" id="category-input" placeholder="Enter category name...">
+          <button id="category-search-btn">Search</button>
+        </div>
+
+        <div id="items-container">
+          <h2>Joke Categories</h2>
+          <% if (jokeCategoriesList && jokeCategoriesList.length> 0) { %>
+            <% jokeCategoriesList.forEach((joke)=> { %>
+              <div class="item category-item" data-category="<%= joke.category_name %>">
+                <div class="title">
+                  <%= joke.category_name %>
+                </div>
+              </div>
+              <% }) %>
+                <% } else { %>
+                  <p>No categories found.</p>
+                  <% } %>
+        </div>
+      </section>
+
+      <section id="jokes-container">
+        <h2 id="joke-category-name">Jokes</h2>
+        <ul id="jokes-list"></ul>
+      </section>
+
+    </div>
+  </body>
+
+  </html>
