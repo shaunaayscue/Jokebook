@@ -40,6 +40,5 @@ lameJoke
  ```
 funnyJoke
 ```
-to get jokes under a certain category.
 
 - You can also click on one of the category names to get the jokes responding to the category too.
