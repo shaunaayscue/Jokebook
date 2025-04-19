@@ -31,6 +31,7 @@ lameJoke
  ```
 funnyJoke
 ```
+When all the boxes are filled, click save and then the new joke will be shown along with the other jokes in that category. 
 
 - Get a random joke by clicking on the "Get a new random joke" button.
 
