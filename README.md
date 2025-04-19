@@ -19,3 +19,7 @@ npm install
 ```
 nodemon server.js
 ```
+- After starting the server, go to the landing page
+```
+http://localhost:3000/jokebook
+```
