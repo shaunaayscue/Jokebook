@@ -23,6 +23,14 @@ nodemon server.js
 ```
 http://localhost:3000
 ```
+- When adding a new joke, in the category box type either
+```
+lameJoke
+```
+ or 
+ ```
+funnyJoke
+```
 
 - In the search bar, type either
 ```
